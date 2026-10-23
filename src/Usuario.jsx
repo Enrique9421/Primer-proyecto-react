@@ -1,4 +1,4 @@
-function Usuario({ nombre, edad, carrera}){
+function Usuario({ nombre, carrera}){
 return (
     <div>
         <h2>{nombre}</h2>
