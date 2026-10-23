@@ -6,10 +6,10 @@ function app() {
   return (
     <div>
       <h1> Mi primera aplicacion react</h1>
-      <Saludo nombre = "Willian" />
-      <Usuario nombre = "Willian"
+      <Saludo nombre = "" />
+      <Usuario nombre = ""
                edad = {25}
-               carrera = "Ingeniería de Sistemas" />
+               carrera = "Sistemas" />
       <p>Contador: {contador}</p>
       <button onClick={() => setContador(contador + 1)}>Aumentar</button>
     </div>
